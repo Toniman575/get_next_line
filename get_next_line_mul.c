@@ -6,7 +6,7 @@
 /*   By: asadik <asadik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 11:58:05 by asadik            #+#    #+#             */
-/*   Updated: 2026/01/23 15:29:54 by asadik           ###   ########.fr       */
+/*   Updated: 2026/01/23 17:41:37 by asadik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,6 @@ static t_buffer	*init(int fd, t_list **buf_lis, char **nex, size_t *len)
 		return (NULL);
 	return (get_buffer(fd, buf_lis));
 }
-
 
 /// If this function is called with fd defined as -2 it will free
 /// all allocated memory in buffer_list. Otherwise it will only free
