@@ -6,7 +6,7 @@
 /*   By: asadik <asadik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 13:29:49 by asadik            #+#    #+#             */
-/*   Updated: 2026/01/23 17:41:56 by asadik           ###   ########.fr       */
+/*   Updated: 2026/02/02 16:07:56 by asadik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define GET_NEXT_LINE_UTILS_H
 # define BUFFER_ERROR 0
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 42
+#  define BUFFER_SIZE 1024
 # endif
 # if BUFFER_SIZE <= 0
 #  undef BUFFER_SIZE
