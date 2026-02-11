@@ -6,7 +6,7 @@
 /*   By: asadik <asadik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 13:29:49 by asadik            #+#    #+#             */
-/*   Updated: 2026/02/02 16:07:56 by asadik           ###   ########.fr       */
+/*   Updated: 2026/02/11 12:34:59 by asadik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ typedef struct s_list
 	struct s_list	*next;
 }					t_list;
 
-char		*get_next_line_mul(int fd);
 int			append(char **next_line, char c, size_t len);
 t_buffer	*get_buffer(int fd, t_list **list);
 t_list		*new_node(int fd);
