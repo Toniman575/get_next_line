@@ -6,7 +6,7 @@
 /*   By: asadik <asadik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 11:58:05 by asadik            #+#    #+#             */
-/*   Updated: 2026/01/23 17:41:29 by asadik           ###   ########.fr       */
+/*   Updated: 2026/02/11 12:33:34 by asadik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static char	*eof_or_error(t_buffer *buffer, char *next_line)
 	}
 }
 
-char	*get_next_line(int fd)
+char	*get_next_line_single(int fd)
 {
 	static t_buffer	buffer;
 	char			*next_line;
