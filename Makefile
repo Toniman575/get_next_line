@@ -21,3 +21,6 @@ re: fclean all
 .PHONY: all clean fclean re
 
 -include $(DEPS)
+
+print_objs:
+	@echo $(addprefix $(shell pwd)/, $(OBJS))
