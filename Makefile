@@ -1,9 +1,9 @@
-NAME = 	gnl.a
-SRCS =	get_next_line_single.c get_next_line_utils.c get_next_line_mul.c
-OBJS = 	$(SRCS:.c=.o)
-CC = cc
-CFLAGS = -Wall -Wextra -Werror -MMD -MP
-DEPS = $(OBJS:.o=.d)
+NAME =		gnl.a
+SRCS =		get_next_line_single.c get_next_line_utils.c get_next_line_mul.c
+OBJS =		$(SRCS:.c=.o)
+CC =		cc
+CFLAGS =	-Wall -Wextra -Werror -MMD -MP
+DEPS =		$(OBJS:.o=.d)
 
 all: $(NAME)
 
